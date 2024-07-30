@@ -1,0 +1,108 @@
+/* src/admin/ProductDescription.css */
+
+.product-description {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.profile-pic {
+  margin-left: 20px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.content {
+  margin-top: 60px;
+  display: flex;
+}
+
+.left-panel, .right-panel {
+  flex: 1;
+  padding: 20px;
+}
+
+.product-section {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 50px;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+}
+
+.edit-icon {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.section-edit {
+  display: flex;
+  align-items: center;
+}
+
+.section-edit input,
+.section-edit textarea {
+  margin-right: 10px;
+}
+
+.guide-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.guide-item {
+  margin-bottom: 5px;
+}
+
+.guide-edit-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.guide-edit-item input {
+  margin-right: 10px;
+}
+
+
+.product-image {
+  margin-left: 25%;
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
