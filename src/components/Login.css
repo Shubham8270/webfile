@@ -1,0 +1,157 @@
+/* src/components/Login.css */
+body {
+  background-color: #f5f5f5;
+}
+
+.login-page {
+  max-width: 1200px; /* Increased width to accommodate both login info and form */
+  margin: 50px auto;
+  padding: 20px;
+  position: relative;
+}
+
+.login-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: -50px;
+  width: 100%;
+  padding: 0 20px;
+  padding-top: 10px; /* Add top padding */
+}
+
+.header-left {
+  margin-left: 45%;
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 10px; /* Add top padding */
+}
+
+.header-right {
+  margin-left: auto;
+  border: 1px solid #0e0e0f;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: #ffffff; /* Ensure the background is white */
+  text-align: center;
+  padding-top: 10px; /* Add top padding */
+}
+
+.header-right a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.header-right a:hover {
+  text-decoration: underline;
+}
+
+.login-container {
+  display: flex;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.login-info {
+  width: 25%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff; /* White background for the info box */
+  margin-right: 20px;
+  position: relative;
+}
+
+.login-info h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.login-info p {
+  margin: 5px 0;
+}
+
+.login-content {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5e4d3; /* Light brown background */
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+}
+
+.login-image {
+  flex: 40%;
+  padding-right: 20px;
+}
+
+.login-image img {
+  width: 100%;
+  height: auto;
+}
+
+.login-form {
+  flex: 60%;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form form div {
+  margin-bottom: 15px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-form input::placeholder {
+  color: #bbb;
+}
+
+.login-links {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.login-links a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.login-links a:hover {
+  text-decoration: underline;
+}
+
+.login-form button {
+  width: 50%;
+  padding: 10px;
+  background-color: #d2b48c; /* Light brown */
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 0 auto;
+  display: block;
+}
+
+.login-form button:hover {
+  background-color: #c0a078; /* Slightly darker brown */
+}

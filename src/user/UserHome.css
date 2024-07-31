@@ -1,0 +1,156 @@
+/* src/user/UserHome.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.user-home {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.user-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent background */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.header-left {
+  font-size: 24px;
+  font-weight: bold;
+  left: 0;
+  padding-left: 100px;
+}
+
+.header-right {
+  display: flex;
+  border: #ffebcd;
+  align-items: center;
+  background: transparent;
+}
+
+.header-box {
+  margin-right: 20px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.header-link {
+  color: white;
+  text-decoration: none;
+  background-color: #ccc;
+}
+
+.header-link:hover {
+  text-decoration: underline;
+}
+
+.profile-box {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px;
+  padding-right: 10px;
+}
+
+.profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.user-content {
+  margin-top: 70px; /* Offset for the fixed header */
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.top-section {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bottom-section {
+  padding: 20px;
+  height: 50vh;
+}
+
+.products {
+  text-align: center;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  justify-items: center;
+  border: #e0c5a8;
+}
+
+.product-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: white;
+  height: 100px;
+  cursor: pointer;
+}
+
+.product-item img {
+  width: 50px;
+  height: auto;
+}
+
+.product-item span {
+  padding: 0 10px;
+  flex: 1;
+  text-align: left;
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #ffebcd; /* Light brown */
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #e0c5a8; /* Darker shade of light brown */
+}
