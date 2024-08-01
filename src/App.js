@@ -16,7 +16,7 @@ import './App.css';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/user/home" element={<UserHome />} />
